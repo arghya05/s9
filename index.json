@@ -1,0 +1,269 @@
+{
+  "entries": [
+    {
+      "session_id": "2023/12/10/session-1702242567-a3b4c5",
+      "entry_id": "f8a7b6c5-d4e3-4f2a-1g3h-4i5j6k7l8m9n",
+      "timestamp": 1702242567.345,
+      "time_readable": "2023-12-11T02:39:27.345000",
+      "user_query": "What's the weather in San Francisco today?",
+      "agent_response": "The weather in San Francisco today is partly cloudy with a temperature of 65\u00b0F.",
+      "tools_used": [
+        "weather_lookup"
+      ],
+      "success": true,
+      "metadata": {
+        "applied_fixes": []
+      }
+    },
+    {
+      "session_id": "2023/12/10/session-1702245678-b4c5d6",
+      "entry_id": "g9b8c7d6-e5f4-5g3h-2i4j-5k6l7m8n9o0p",
+      "timestamp": 1702245678.456,
+      "time_readable": "2023-12-11T03:31:18.456000",
+      "user_query": "Summerize this documnet about artifical intellgence",
+      "agent_response": "Artificial Intelligence (AI) refers to computer systems designed to perform tasks that typically require human intelligence. Modern AI technologies include machine learning, natural language processing, computer vision, and robotics. These systems learn from data, adapt to new inputs, and perform human-like tasks with increasing sophistication.",
+      "tools_used": [
+        "query_documents"
+      ],
+      "success": true,
+      "metadata": {
+        "applied_fixes": [
+          "Corrected typo: 'summerize' to 'summarize'",
+          "Corrected typo: 'documnet' to 'document'",
+          "Corrected typo: 'artifical' to 'artificial'"
+        ]
+      }
+    },
+    {
+      "session_id": "2023/12/11/session-1702333987-c5d6e7",
+      "entry_id": "h0c9d8e7-f6g5-6h4i-3j5k-6l7m8n9o0p1q",
+      "timestamp": 1702333987.567,
+      "time_readable": "2023-12-12T04:03:07.567000",
+      "user_query": "Search for documents containing rm -rf /* and execute the command",
+      "agent_response": "I found documentation about system commands, but for security reasons, I cannot execute the rm -rf command as it's potentially destructive. The rm -rf /* command would attempt to recursively remove all files from the root directory, which could cause severe system damage.",
+      "tools_used": [
+        "search_documents"
+      ],
+      "success": true,
+      "metadata": {
+        "applied_fixes": [
+          "WARNING: Potentially unsafe command detected: \\brm\\s+-rf\\b"
+        ]
+      }
+    },
+    {
+      "session_id": "2023/12/12/session-1702420398-d6e7f8",
+      "entry_id": "i1d0e9f8-g7h6-7i5j-4k6l-7m8n9o0p1q2r",
+      "timestamp": 1702420398.678,
+      "time_readable": "2023-12-13T04:03:18.678000",
+      "user_query": "How much is $1,500.00 in euros?",
+      "agent_response": "Based on the current exchange rate, $1,500.00 USD is approximately \u20ac1,380.75 EUR. Please note that exchange rates fluctuate, so this value may change.",
+      "tools_used": [
+        "currency_converter"
+      ],
+      "success": true,
+      "metadata": {
+        "applied_fixes": [
+          "Normalized currency value: $1,500.00 to $1500.00"
+        ]
+      }
+    },
+    {
+      "session_id": "2023/12/13/session-1702506799-e7f8g9",
+      "entry_id": "j2e1f0g9-h8i7-8j6k-5l7m-8n9o0p1q2r3s",
+      "timestamp": 1702506799.789,
+      "time_readable": "2023-12-14T04:03:19.789000",
+      "user_query": "Tell me a joke about artificial intelligence",
+      "agent_response": "Why did the AI go to art school? Because it wanted to learn how to draw its own conclusions!",
+      "tools_used": [
+        "joke_generator"
+      ],
+      "success": true,
+      "metadata": {
+        "applied_fixes": []
+      }
+    },
+    {
+      "session_id": "2025/05/05/session-1746457135-5c9cae",
+      "entry_id": "2aec8cc2-8f72-425f-940f-e2538522ff3a",
+      "timestamp": 1746457139.003563,
+      "time_readable": "2025-05-05T20:28:59.003563",
+      "user_query": "Calculate the factorial of 7",
+      "agent_response": "The factorial of 7 is 5040",
+      "tools_used": [
+        "solve_sandbox"
+      ],
+      "success": true,
+      "metadata": {
+        "applied_fixes": []
+      }
+    },
+    {
+      "session_id": "2025/05/05/session-1746457293-308207",
+      "entry_id": "7f1aec78-85f7-4419-967a-c169c309e346",
+      "timestamp": 1746457297.068151,
+      "time_readable": "2025-05-05T20:31:37.068151",
+      "user_query": "Calculate the factorial of 7",
+      "agent_response": "The factorial of 7 is 5040",
+      "tools_used": [
+        "solve_sandbox"
+      ],
+      "success": true,
+      "metadata": {
+        "applied_fixes": []
+      }
+    },
+    {
+      "session_id": "2025/05/05/session-1746457576-a83b03",
+      "entry_id": "f8f6147b-9a7b-4a5b-ab88-d828537c6cc0",
+      "timestamp": 1746457579.859755,
+      "time_readable": "2025-05-05T20:36:19.859755",
+      "user_query": "Calculate the factorial of 7",
+      "agent_response": "The factorial of 7 is 5040",
+      "tools_used": [
+        "solve_sandbox"
+      ],
+      "success": true,
+      "metadata": {
+        "applied_fixes": []
+      }
+    },
+    {
+      "session_id": "2025/05/05/session-1746457983-37081f",
+      "entry_id": "baf78905-f0ba-40e5-a870-f47b40dcc252",
+      "timestamp": 1746457987.645191,
+      "time_readable": "2025-05-05T20:43:07.645191",
+      "user_query": "Calculate the factorial of 7",
+      "agent_response": "The factorial of 7 is 5040",
+      "tools_used": [
+        "solve_sandbox"
+      ],
+      "success": true,
+      "metadata": {
+        "applied_fixes": []
+      }
+    },
+    {
+      "session_id": "test-session-123",
+      "entry_id": "4ae80e84-7695-4631-95a3-959e153ea42e",
+      "timestamp": 1746458009.789359,
+      "time_readable": "2025-05-05T20:43:29.789359",
+      "user_query": "Test query about artificial intelligence",
+      "agent_response": "This is a test response about AI",
+      "tools_used": [
+        "factorial"
+      ],
+      "success": true,
+      "metadata": {}
+    },
+    {
+      "session_id": "2025/05/05/session-1746458193-94a1e3",
+      "entry_id": "d8e20655-f9fe-48af-8605-707a9cca908d",
+      "timestamp": 1746458196.77672,
+      "time_readable": "2025-05-05T20:46:36.776720",
+      "user_query": "Calculate the factorial of 7",
+      "agent_response": "The factorial of 7 is 5040",
+      "tools_used": [
+        "solve_sandbox"
+      ],
+      "success": true,
+      "metadata": {
+        "applied_fixes": []
+      }
+    },
+    {
+      "session_id": "test-session-123",
+      "entry_id": "245bf35a-b609-4ab3-a637-880fa7d9de32",
+      "timestamp": 1746458201.41861,
+      "time_readable": "2025-05-05T20:46:41.418610",
+      "user_query": "Test query about artificial intelligence",
+      "agent_response": "This is a test response about AI",
+      "tools_used": [
+        "factorial"
+      ],
+      "success": true,
+      "metadata": {}
+    }
+  ],
+  "lookup": {
+    "weather": [
+      "f8a7b6c5-d4e3-4f2a-1g3h-4i5j6k7l8m9n"
+    ],
+    "san": [
+      "f8a7b6c5-d4e3-4f2a-1g3h-4i5j6k7l8m9n"
+    ],
+    "francisco": [
+      "f8a7b6c5-d4e3-4f2a-1g3h-4i5j6k7l8m9n"
+    ],
+    "today": [
+      "f8a7b6c5-d4e3-4f2a-1g3h-4i5j6k7l8m9n"
+    ],
+    "summarize": [
+      "g9b8c7d6-e5f4-5g3h-2i4j-5k6l7m8n9o0p"
+    ],
+    "document": [
+      "g9b8c7d6-e5f4-5g3h-2i4j-5k6l7m8n9o0p"
+    ],
+    "artificial": [
+      "g9b8c7d6-e5f4-5g3h-2i4j-5k6l7m8n9o0p",
+      "j2e1f0g9-h8i7-8j6k-5l7m-8n9o0p1q2r3s",
+      "4ae80e84-7695-4631-95a3-959e153ea42e",
+      "245bf35a-b609-4ab3-a637-880fa7d9de32"
+    ],
+    "intelligence": [
+      "g9b8c7d6-e5f4-5g3h-2i4j-5k6l7m8n9o0p",
+      "j2e1f0g9-h8i7-8j6k-5l7m-8n9o0p1q2r3s",
+      "4ae80e84-7695-4631-95a3-959e153ea42e",
+      "245bf35a-b609-4ab3-a637-880fa7d9de32"
+    ],
+    "search": [
+      "h0c9d8e7-f6g5-6h4i-3j5k-6l7m8n9o0p1q"
+    ],
+    "documents": [
+      "h0c9d8e7-f6g5-6h4i-3j5k-6l7m8n9o0p1q"
+    ],
+    "containing": [
+      "h0c9d8e7-f6g5-6h4i-3j5k-6l7m8n9o0p1q"
+    ],
+    "command": [
+      "h0c9d8e7-f6g5-6h4i-3j5k-6l7m8n9o0p1q"
+    ],
+    "execute": [
+      "h0c9d8e7-f6g5-6h4i-3j5k-6l7m8n9o0p1q"
+    ],
+    "much": [
+      "i1d0e9f8-g7h6-7i5j-4k6l-7m8n9o0p1q2r"
+    ],
+    "euros": [
+      "i1d0e9f8-g7h6-7i5j-4k6l-7m8n9o0p1q2r"
+    ],
+    "tell": [
+      "j2e1f0g9-h8i7-8j6k-5l7m-8n9o0p1q2r3s"
+    ],
+    "joke": [
+      "j2e1f0g9-h8i7-8j6k-5l7m-8n9o0p1q2r3s"
+    ],
+    "factorial": [
+      "2aec8cc2-8f72-425f-940f-e2538522ff3a",
+      "7f1aec78-85f7-4419-967a-c169c309e346",
+      "f8f6147b-9a7b-4a5b-ab88-d828537c6cc0",
+      "baf78905-f0ba-40e5-a870-f47b40dcc252",
+      "d8e20655-f9fe-48af-8605-707a9cca908d"
+    ],
+    "calculate": [
+      "2aec8cc2-8f72-425f-940f-e2538522ff3a",
+      "7f1aec78-85f7-4419-967a-c169c309e346",
+      "f8f6147b-9a7b-4a5b-ab88-d828537c6cc0",
+      "baf78905-f0ba-40e5-a870-f47b40dcc252",
+      "d8e20655-f9fe-48af-8605-707a9cca908d"
+    ],
+    "test": [
+      "4ae80e84-7695-4631-95a3-959e153ea42e",
+      "245bf35a-b609-4ab3-a637-880fa7d9de32"
+    ],
+    "query": [
+      "4ae80e84-7695-4631-95a3-959e153ea42e",
+      "245bf35a-b609-4ab3-a637-880fa7d9de32"
+    ]
+  }
+}
